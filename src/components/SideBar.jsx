@@ -10,7 +10,7 @@ const SideBar = ({ isOpen, toggleSidebar }) => {
     >
      
       <div className="flex justify-between items-center p-4 border-b border-gray-700">
-        <h2 className="text-xl font-bold">Menu</h2>
+        <h2 className="text-xl font-bold">DashBoard</h2>
         <button onClick={toggleSidebar}>
           <X size={24} />
         </button>
